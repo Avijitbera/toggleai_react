@@ -13,7 +13,7 @@ flags:
         rollout_percentage: 50
       staging:
         enabled: true
-        rollout_percentage: 100
+        rollout_percentage: 80
     variations:
       - key: control
         value: false
