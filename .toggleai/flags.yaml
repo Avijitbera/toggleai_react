@@ -24,7 +24,7 @@ flags:
         enabled: true
         rollout_percentage: 100
       production:
-        enabled: true
+        enabled: false
         rollout_percentage: 100
 
 configs:
