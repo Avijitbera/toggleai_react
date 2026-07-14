@@ -19,7 +19,7 @@ flags:
     environments:
       staging:
         enabled: true
-        rollout_percentage: 100
+        rollout_percentage: 50
       development:
         enabled: true
         rollout_percentage: 100
