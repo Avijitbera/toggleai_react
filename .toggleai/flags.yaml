@@ -9,12 +9,23 @@ flags:
     environments:
       staging:
         enabled: true
-        rollout_percentage: 80
-    variations:
-      - key: control
-        value: false
-      - key: variant_a
-        value: true
+        rollout_percentage: 100
+      production:
+        enabled: true
+        rollout_percentage: 50
+  new-theme:
+    name: "New Theme"
+    type: boolean
+    environments:
+      staging:
+        enabled: true
+        rollout_percentage: 100
+      development:
+        enabled: true
+        rollout_percentage: 100
+      production:
+        enabled: true
+        rollout_percentage: 100
 
 configs:
   api_timeout_ms:
